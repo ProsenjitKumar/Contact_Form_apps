@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+
+<h1>Contact</h1>
+
+<div>
+    {% if confirm_text %}
+    {{ confirm_text }}
+    {% endif %}
+    {% if form %}
+    <form method="post" action="">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="button" value="OK">
+    </form>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
