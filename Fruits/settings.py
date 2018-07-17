@@ -18,7 +18,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Email
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'prosenjitlearnkumar@gmail.com'
-EMAIL_HOST_PASSWORD = '#Prosenjit123'
+EMAIL_HOST_PASSWORD = '**********************'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
